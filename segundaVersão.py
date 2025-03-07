@@ -115,7 +115,6 @@ def saque():
                 saldo -= valor_retirado
                 qttd_transacoes += 1
                 extrato.append(f"{data_corrente_hora}: - {valor_retirado:.2f}")
-                print(f"valor da qtdd_transações é {qttd_transacoes}")
                 print(f"Saque de R$ {valor_retirado:.2f} realizado com sucesso!")
                 print(f"Saldo atual: R$ {saldo:.2f}")
                 
